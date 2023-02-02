@@ -1,0 +1,20 @@
+html {
+    
+    
+}
+
+div{
+    width: 50rem;
+    margin:2px auto;
+}
+
+img{
+    width: 33rem;
+}
+
+p{
+    width: 33rem;
+    text-align: justify;
+    font-family: sans-serif;
+
+}
