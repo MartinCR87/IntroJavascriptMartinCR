@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Movimientos de Cuenta</title>
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+
+</head>
+<body>
+    <main class="mainTransf">
+        <header class="headerTransf">
+            <h2>Bienvenid@ a tu cuenta</h2>
+        </header>
+        <div class="raya"></div>
+        <div class="separacion"></div>
+        <p class="pTransf">
+            Hola: <span id="hiUsuario"></span>
+        </p>
+        <p class="pTransf">
+            ¿Cómo podemos ayudarte el día de hoy?
+        </p>
+        <div class="separacion"></div>
+
+    <section>
+        <div>
+
+        </div>
+        <div class="bigContBtn">
+            <div class="btnsDiv" >
+                <button class="btnTransf">
+                    Consultar saldo
+                </button>
+                <button class="btnTransf" type="button" onclick="document.getElementById('ingresar').style.display='block'">
+                    Ingresar Monto
+                </button>
+                <button class="btnTransf" onclick="document.getElementById('retirar').style.display='block'">
+                    Retirar Monto
+                </button>
+
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Ventanas magicas JS -->
+
+    <div>
+        <div class="separacion"></div>
+        <form action="">
+            <div style="display:none" id="ingresar">
+
+                <label for="" id="ingresar">Monto a ingresar:</label><input type="number"><button id="aceptarIngresar">Aceptar</button>
+            </div>
+            <div class="separacion"></div>
+            <div style="display:none" id="retirar">
+                <label for="">Cantidad a Retirar:</label><input type="number"><button id="aceptarRetirar">Aceptar</button>
+
+            </div>
+            
+        </form>
+
+    </div>
+    <div class="separacion"></div>
+
+    <p>Saldo:</p>
+    <div class="separacion"></div>
+    <footer class="footerMov">
+        <p>
+            *Para conservar tu cuenta: no debes tener más de $990 ni menos de $10. 
+        </p>
+    </footer>
+
+    </main>
+    
+    
+    
+    
+    
+    
+    <script src="main.js"></script>
+
+    <!-- bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>

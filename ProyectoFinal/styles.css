@@ -1,0 +1,106 @@
+.section-logo{
+    border: solid;
+    height: 33px;
+    width: auto;
+}
+
+.nav-logo{
+    /* border: solid; */
+    height: 33px;
+    /* width: 100px; */
+}
+
+.raya {
+    border: solid;
+
+}
+
+.separacion {
+    height: 33px;
+    width: auto;
+}
+
+main {
+    /* width: 50em; */
+    /* border: 1px solid; */
+    margin: 5px auto;
+    text-align: center;
+}
+
+.login-div-Main {
+    border: solid 1px gray;
+    border-radius: 20px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+    width: 400px;
+    margin: 0 auto;
+    /* display: flex;
+    flex-wrap: wrap; */
+}
+
+.login-div-Main div{
+    margin: 13px;
+    
+}
+
+.labelData {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:bold;
+    color: rgb(28, 181, 181);
+    margin: 0 8px;
+    
+    
+    
+}
+
+#loginButton {
+    font-weight: 700;
+    color: azure;
+    width: 78%;
+    border-radius: 5px;
+    background-color: rgba(21, 154, 154, 0.493);
+    border: 0px;
+}
+
+.mainTransf{
+    margin: 0 auto;
+}
+
+.headerTransf {
+    background-color: rgb(80, 117, 173);
+    margin: 0px;
+    border: solid rgb(80, 117, 173) 1px;
+    color: aliceblue;
+}
+
+.pTransf{
+    font-size: 1.5rem ;
+    font-weight: 600;
+
+}
+
+
+.btnsDiv{
+    margin: 0 auto;
+    border: solid gray 1px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.43);
+    width: 40%;
+    padding: 15px
+    
+    
+    
+    
+}
+.btnTransf{
+    font-weight: 600;
+    margin: 10px;
+    border-radius: 12px;
+    box-shadow: 10px 10px 5px 0px rgba(233,226,226,0.75);
+
+    
+}
+
+.footerMov {
+    background-color: rgb(241, 235, 228);
+    margin: 0 auto;
+}
